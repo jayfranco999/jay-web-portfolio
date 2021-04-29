@@ -3,6 +3,7 @@
 body{
     font-family: 'Comfortaa', cursive;
 font-family: 'Montserrat', sans-serif;
+margin:0;
 }
 h1{
     font-weight: bolder;
@@ -66,13 +67,74 @@ border-radius: 0.5rem;
 
 .navigation{
     background-color: var(--primary-color);
-    height: 5rem;
+    padding-bottom: 2rem;
     padding-top: 1rem;
     color: white;
     border-bottom-left-radius: 1rem;
     
 }
+.navigation .brand{
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-size: large;
 
-.nav-options{
+    
+}
+
+.navigation .container{
+    margin: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+}
+
+.navigation .nav-options{
     text-align: right;
+    margin-bottom: 0;
+}
+
+.navigation .inline-list{
+    padding: 0;
+}
+
+.hero {
+    padding: 1rem;
+    text-align: center;
+    color: var(--dark-gray);
+}    
+
+.hero .hero-img{
+    max-width: 400px;
+    padding:1rem;
+}
+
+
+.section h2{
+text-align: center;
+}
+
+
+.section .secondary-sec{
+    padding-bottom:1rem;
+    background-color: var(--off-white);
+}
+
+.footer{
+    border-top-right-radius: 1rem;
+    background-color: var(--primary-color);
+    padding:1.5rem
+    
+    
+}
+
+.footer .footer-header{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.footer .social-links{
+    text-align: center;
+    padding:0;
 }

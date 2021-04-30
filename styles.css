@@ -37,6 +37,7 @@ hr{
     padding: 0.5rem 1rem;
     box-sizing: border-box;
     color: white;
+    
 }
 
 .primary-link{
@@ -108,14 +109,22 @@ border-radius: 0.5rem;
     padding:1rem;
 }
 
+.hero .hero-inverted{
+    color: var(--primary-color);
+}
 
+.section{
+    padding:1rem;
+}
 .section h2{
 text-align: center;
 }
+.secondary-sec h2{
+    text-align: center;
+}
 
-
-.section .secondary-sec{
-    padding-bottom:1rem;
+.secondary-sec{
+    padding:1rem;
     background-color: var(--off-white);
 }
 
@@ -132,6 +141,7 @@ text-align: center;
     text-align: center;
     font-weight: bolder;
     font-size: large;
+    margin-bottom: 1.5rem;
 }
 
 .footer .social-links{

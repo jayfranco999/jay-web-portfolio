@@ -30,6 +30,7 @@ hr{
 .container-centre{
     max-width: 600px;
     margin: auto;
+    margin-bottom: 3rem;
 }
 
 .link{
@@ -54,6 +55,7 @@ border-radius: 0.5rem;
 
 .unordered-list{
     list-style: none;
+
 }
 
 .inline-list{
